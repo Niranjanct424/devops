@@ -1,0 +1,14 @@
+docker images
+
+docker run myimage
+
+To check the containrs which are running
+  sudo docker ps
+  which are terminated
+  sudo docker ps -a
+  
+  build:
+  docker build -t <imagename> .
+  
+  run:
+  docker run imagename
